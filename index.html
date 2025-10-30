@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DrumBeat Accessories - Toko Aksesori Drum Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1><span class="drum-emoji">🥁</span> DrumBeat Accessories</h1>
+        </div>
+        <nav>
+            <a href="index.html" class="nav-link">Beranda</a>
+            <a href="#blog-section" class="nav-link">Blog</a>
+            <a href="#profile-section" class="nav-link">Profil Bisnis</a>
+            <button id="signup-btn" class="nav-button primary-btn">Sign Up</button>
+            <button id="login-btn" class="nav-button secondary-btn">Login</button>
+        </nav>
+    </header>
+
+    <main>
+        <div id="auth-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <h2 id="modal-title">Daftar Akun</h2>
+                <form id="auth-form">
+                    <input type="email" id="auth-email" placeholder="Masukkan Email" required>
+                    <input type="password" id="auth-password" placeholder="Masukkan Password" required>
+                    <button type="submit" id="auth-submit-btn" class="primary-btn">Daftar</button>
+                </form>
+                <p id="toggle-auth">Sudah punya akun? <a href="#" id="show-login">Login</a></p>
+            </div>
+        </div>
+
+        <section id="home" class="hero-section">
+            <h2>Temukan Aksesori Drum Terbaik Anda!</h2>
+            <div class="model-selection">
+                <a href="acoustic.html" class="model-card acoustic-bg">
+                    <h3>Drum Akustik</h3>
+                    <p>Cek Snare, Tom, Cymbal, dll.</p>
+                </a>
+                <a href="electric.html" class="model-card electric-bg">
+                    <h3>Drum Elektrik</h3>
+                    <p>Cek Pad, Modul, dan Simbal Elektrik.</p>
+                </a>
+            </div>
+        </section>
+
+        <section id="blog-section" class="content-section">
+            <h2>📰 Blog Bisnis</h2>
+            <p>Baca tips, ulasan produk, dan berita terbaru dunia drum. Klik di sini untuk artikel terbaru!</p>
+            <div class="blog-preview">
+                <h4>5 Snare Terbaik untuk Genre Rock</h4>
+                <p>Ulasan mendalam tentang snare drum yang wajib dicoba drumer rock.</p>
+            </div>
+        </section>
+        
+        <section id="profile-section" class="content-section">
+            <h2>👨‍💼 Profil Bisnis & Pemilik</h2>
+            <div class="profile-card">
+                <h3>Matthew Setiady</h3>
+                <p class="role">Pendiri & CEO DrumBeat Accessories</p>
+                <p class="business-mission">DrumBeat Accessories adalah platform jual beli online yang berfokus pada penyediaan aksesori drum berkualitas tinggi untuk semua level drumer di Indonesia.</p>
+            </div>
+        </section>
+
+        <section id="contact-us" class="contact-section">
+            <h2>📞 Hubungi Kami</h2>
+            <p class="contact-info">Telepon: **+62 789-021-345**</p>
+            <div class="social-media">
+                <a href="https://instagram.com/yourbusiness" target="_blank">Instagram</a>
+                <a href="https://tiktok.com/@yourbusiness" target="_blank">TikTok</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 DrumBeat Accessories. | Info Brand & Kontak | <a href="#">Kebijakan Privasi</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
